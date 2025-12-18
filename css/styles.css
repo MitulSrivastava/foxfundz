@@ -1274,3 +1274,16 @@ footer.bg-dark h5 {
         font-size: 3.8rem;
     }
 }
+
+/* --- Utility Classes for Brand Colors --- */
+.text-accent {
+    color: var(--accent-orange) !important;
+}
+
+.text-navy {
+    color: var(--primary-navy) !important;
+}
+
+.text-dark-navy {
+    color: var(--primary-dark) !important;
+}
