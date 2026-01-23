@@ -77,7 +77,7 @@ h6,
 }
 
 .nav-link {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--primary-navy) !important;
