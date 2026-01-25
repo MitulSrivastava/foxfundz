@@ -19,6 +19,12 @@
     --nav-height: 80px;
 }
 
+/* Prevent horizontal scroll on all devices */
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     font-family:
         "Inter",
@@ -29,9 +35,20 @@ body {
     background-color: var(--bg-white);
     line-height: 1.7;
     overflow-x: hidden;
+    width: 100%;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all elements respect container width */
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 h1,
@@ -70,10 +87,11 @@ h6,
 
 .navbar-brand {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.35rem;
+    letter-spacing: 0.01em;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .nav-link {
